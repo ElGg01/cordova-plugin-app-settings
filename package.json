@@ -1,6 +1,6 @@
 {
   "name": "@elgg/cordova-plugin-app-settings",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Plugin para abrir la configuración de la app",
   "cordova": {
     "id": "cordova-plugin-app-settings",

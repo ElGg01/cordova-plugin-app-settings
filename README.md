@@ -17,7 +17,7 @@ Example:
 cordova plugin add ../../cordova-plugin-app-settings
 ```
 
-### Install from a npm
+### Install from npm
 
 1. Run the following command inside your Cordova project:
 
