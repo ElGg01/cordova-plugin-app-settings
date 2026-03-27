@@ -17,6 +17,14 @@ Example:
 cordova plugin add ../../cordova-plugin-app-settings
 ```
 
+### Install from a npm
+
+1. Run the following command inside your Cordova project:
+
+```bash
+cordova plugin add @elgg/cordova-plugin-app-settings
+```
+
 ## Usage
 Once running in a Cordova environment, the plugin is available via the global AppSettings object.
 

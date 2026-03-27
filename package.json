@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-app-settings",
+  "name": "@elgg/cordova-plugin-app-settings",
   "version": "1.0.0",
   "description": "Plugin para abrir la configuración de la app",
   "cordova": {
@@ -10,6 +10,7 @@
     ]
   },
   "keywords": [
+    "ecosystem:cordova",
     "cordova",
     "settings",
     "app settings",
@@ -17,6 +18,10 @@
     "notifications",
     "permissions"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElGg01/cordova-plugin-app-settings.git"
+  },
   "author": "ElGg01",
   "license": "MIT"
 }
