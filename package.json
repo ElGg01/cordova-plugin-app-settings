@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-app-settings",
+  "version": "1.0.0",
+  "description": "Plugin para abrir la configuración de la app",
+  "cordova": {
+    "id": "cordova-plugin-app-settings",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "settings",
+    "app settings",
+    "app notifications settings",
+    "notifications",
+    "permissions"
+  ],
+  "author": "ElGg01",
+  "license": "MIT"
+}

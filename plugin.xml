@@ -1,0 +1,32 @@
+<plugin id="cordova-plugin-app-settings" version="1.0.0">
+    <name>AppSettings</name>
+
+    <js-module src="www/AppSettings.js" name="AppSettings">
+        <clobbers target="AppSettings" />
+    </js-module>
+
+    <!-- ANDROID -->
+    <platform name="android">
+        <source-file 
+            src="src/android/AppSettings.java" 
+            target-dir="src/com/elgg01/appsettings" />
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="AppSettings">
+                <param name="android-package" value="com.elgg01.appsettings.AppSettings" />
+            </feature>
+        </config-file>
+    </platform>
+
+    <!-- iOS -->
+    <platform name="ios">
+        <source-file src="src/ios/AppSettings.m" />
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="AppSettings">
+                <param name="ios-package" value="AppSettings" />
+            </feature>
+        </config-file>
+    </platform>
+
+</plugin>
